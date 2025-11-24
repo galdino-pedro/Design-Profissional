@@ -1,0 +1,61 @@
+Currículo LaTex
+
+% curriculo.tex
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[scale=0.83]{geometry}
+
+% ===== Informações pessoais =====
+\name{Pedro Galdino dos Santos}{}
+\title{Currículo Profissional}
+\address{}{Brasil}{}
+\email{xtexzak@gmail.com}
+
+\begin{document}
+\makecvtitle
+
+% ===== PERFIL =====
+\section{Perfil}
+\cvitem{}{
+Profissional de \textbf{mecânica automotiva}, 19 anos, focado em desenvolvimento técnico, aprendizado contínuo e na entrega de serviços com qualidade e responsabilidade. Atualmente cursando \textbf{Análise e Desenvolvimento de Sistemas}, buscando expandir conhecimentos na área de tecnologia enquanto desenvolvo habilidades práticas no setor automotivo.
+}
+
+% ===== EXPERIÊNCIA PROFISSIONAL =====
+\section{Experiência}
+\cventry{Ano -- Ano}{Mecânica Automotiva}{(Nome da Empresa)}{Cidade}{}{
+\begin{itemize}
+  \item Manutenção preventiva e corretiva.
+  \item Diagnóstico básico de falhas e substituição de peças.
+  \item Uso de ferramentas e equipamentos de oficina.
+\end{itemize}
+}
+
+% ===== EDUCAÇÃO =====
+\section{Educação}
+\cventry{2025 -- Atual}{Tecnólogo em Análise e Desenvolvimento de Sistemas}{UDF - Centro Universitário do Distrito Federal}{Brasília}{}{
+Em andamento.
+}
+\cventry{Ano -- Ano}{(Ensino Médio ou outro curso)}{(Instituição)}{Cidade}{}{}
+
+% ===== HABILIDADES =====
+\section{Habilidades}
+\cvitem{Técnicas}{Manutenção automotiva, diagnóstico básico, ferramentas de oficina}
+\cvitem{Tecnologia}{Lógica de programação (em desenvolvimento), familiaridade inicial com sistemas e TI}
+\cvitem{Pessoais}{Trabalho em equipe, organização, boa comunicação, aprendizado rápido}
+
+% ===== CURSOS =====
+\section{Cursos}
+\cvitem{Ano}{(Adicione aqui cursos técnicos, online ou presenciais, se tiver)}
+
+% ===== INFORMAÇÕES ADICIONAIS =====
+\section{Informações Adicionais}
+\cvitem{Idade}{19 anos}
+\cvitem{Disponibilidade}{Imediata}
+\cvitem{Interesses}{Área automotiva, tecnologia, evolução profissional}
+
+\end{document}
